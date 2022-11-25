@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "descripcion": "1) Fotografía de frente a las puertas del contenedor. (Se evidencia el número del equipo)."
+    },
+    {
+        "id": 2,
+        "descripcion": "2) Fotografía a los sellos que trae el contenedor (Se evidencia el o los números de sellos)."
+    },
+    {
+        "id": 3,
+        "descripcion": "3) Fotografía a la apertura del contenedor (Se evidencia el estado de la carga)."
+    },
+    {
+        "id": 4,
+        "descripcion": "4) Fotografía al cierre del contenedor (Se evidencia del cerrado del contenedor con los nuevos sellos.)"
+    },
+    {
+        "id": 5,
+        "descripcion": "5) Fotografía a los sellos que se le colocaron al contenedor. (Se evidencia los nuevos sellos colocados al contenedor)."
+    }
+]

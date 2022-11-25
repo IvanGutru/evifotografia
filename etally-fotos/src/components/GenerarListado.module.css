@@ -1,0 +1,90 @@
+.parentRowTable{
+    width: 80vw;
+    height: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.rowTable{
+    display: flex;
+    flex-direction: row;
+    width : 100%;
+    height: 16vh;
+}
+.columnTable{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 25%;
+}
+.nServicio{
+    color: black;
+    font-size: 2vh;
+    font-weight: bolder;
+}
+.nContenedor{
+    margin-top: -5%;
+    color: #707070;
+    font-size: .75rem;
+}
+.tServicio{
+    color: #707070;
+    font-size: .6875rem;
+    margin-top: 1%;
+}
+.fecha{
+    color: #707070;
+    margin-top: 10%;
+    margin-left: 20%;
+
+}
+.nFotografias{
+    color: #707070;
+    margin-top: 10%;
+
+}
+
+.notTarjas{
+    text-align: center;
+    margin: 20px;
+}
+
+.searchContainer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;    
+    margin-top: 3%;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.inputContainer{
+    width: 25%;
+    margin-right: 9%;
+}
+
+
+.nBtnShow{
+    background-color: #f69100;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 70%;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.trHeaderTable{
+    text-align: center;
+}
+
+.serviceType{
+    text-align: start;
+}
+
+.centerTable{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

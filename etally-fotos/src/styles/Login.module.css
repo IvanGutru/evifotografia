@@ -1,0 +1,156 @@
+.principalContainer{
+    background: #f69100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.formContainer{
+    width: 58%;
+    height: 68%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-size: 1vw;    
+}
+
+.titleForm{
+    text-align: center;
+    font-size: 1vw;
+    margin-bottom: 0px;
+}
+.logoContainer{
+ text-align: center;
+}
+.imgContainer{
+    
+    display: block;
+    margin: 0;
+    margin-left: 10%;
+    width: 64vh;
+    height: 68vh;
+    object-fit: cover;     
+}
+.logoContecon{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10%  ;
+}
+
+.btnLogin{
+    background: #f69100;
+    /* background: linear-gradient(to right, #fe8d73, #f69100); */
+    color: white;
+    width: 100%;
+    height: 180%;
+    border-color: transparent;
+}
+
+.letrasFormulario{
+    font-size: 1vw !important;
+    color: gray !important;
+
+}
+.insideFormulario{
+ color: #f69100;    
+}
+
+.contenedorFormulario{
+    margin-top: 12vh ;
+    margin-left: 10vh;
+}
+.formLabel::placeholder{
+    color: #d95030;
+}
+
+@media only screen and (max-width:1024px){
+    .imgContainer { 
+        display: none; 
+      }
+    .columnaImagen{
+        display: none !important;
+    }
+    .contenedorFormulario{
+        width: 90%;
+        height: 80%;
+        margin-top: 0vh;
+        margin-left: 5%;
+    }
+    .logoContecon{
+        padding-right: 1rem;
+    }
+    .letrasFormulario{
+        font-size: 1rem !important;
+    }
+    .titleForm{
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (max-width:913px){
+    .letrasFormulario{
+        font-size: 2rem !important;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .imgContainer { 
+        display: none; 
+      }
+    .contenedorFormulario{
+        align-self: center;
+    }
+    .logoContecon{
+        width: 105%;
+        height: 55%;
+        margin-bottom: 10%  ;
+    }
+    .letrasFormulario{
+        font-size: 3vw !important;
+    }
+}
+
+@media only screen and (max-width: 425px) { 
+    .imgContainer { 
+      display: none; 
+    } 
+    .contenedorFormulario{
+        align-self: center;
+    }
+    .logoContecon{
+        width: 105%;
+        height: 55%;
+        margin-bottom: 10%  ;
+    }
+    .letrasFormulario{
+        font-size: 3vw !important;
+    }
+  }
+
+  @media only screen and (max-width: 1265px) { 
+    .imgContainer { 
+        display: none; 
+      }
+    .columnaImagen{
+        display: none !important;
+    }
+    .contenedorFormulario{
+        width: 90%;
+        height: 80%;
+        margin-top: 0vh;
+        margin-left: 5%;
+    }
+    .logoContecon{
+        padding-right: 1rem;
+    }
+    .letrasFormulario{
+        font-size: 1rem !important;
+    }
+    .titleForm{
+        margin-bottom: 1rem;
+    }
+  }

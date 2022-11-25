@@ -1,0 +1,9 @@
+.modalContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.descripcion{
+    background-color: #f69100;
+    width: 100%;
+}
