@@ -26,7 +26,7 @@ const Login = () => {
       formData.append('email', dataForm.email);
       formData.append('password', dataForm.password);
       setIsSended('Conectandose...')
-      fetch('api/login', {
+      fetch('http://evidenciasfotograficas.contecon.mx:82/api/login', {
          method: 'POST',
          body: formData
         })
